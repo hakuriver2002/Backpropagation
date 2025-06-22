@@ -1,4 +1,7 @@
 <p align="center">
+  <h1>
+    BACKPROPAGATION
+  </h1>
   <a href="">
     <img src="images-result\MNIST_dataset_example.png" height="300px">
   </a>
@@ -6,25 +9,45 @@
 
 &nbsp;
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Feedback](#feedback)
-- [Contributors](#contributors)
-- [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Introduction
-
-[![CircleCI](https://circleci.com/gh/codesandbox/codesandbox-client.svg?style=svg)](https://circleci.com/gh/codesandbox/codesandbox-client)
-[![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
 [![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
 
-## Feature
+## Table of Contents
+
+- [Overview](#Overview)
+- [Installation](#Installation)
+- [Screenshots](#Screenshots)
+
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Overview
+Backpropagation is a developer tool that facilitates the development, training, and understanding of convolutional neural networks, specifically demonstrated through MNIST digit classification. It emphasizes scalable, maintainable architecture and inergrates continuous testing and contributor management to support collaborative efforts.
+
+
+## Installation
+Build Backpropagation from the source and install dependencies:
+
+```bash
+git clone https://github.com/hakuriver2002/Backpropagation.git
+```
+
+Navigate to the project directory:
+```bash
+cd Backpropagation
+```
+You need to install some library of tensorflow keras:
+```bash
+pip install tensorflow
+```
+```bash
+pip install keras
+```
+
+## Screenshots
+
+![App Screenshot](images-result\Accuracy-Val-Accuracy-EarlyStopping-result.png)
+![App Screenshot](images-result\Accuracy-Val-Accuracy result.png)
+![App Screenshot](images-result\Accuracy-Val-Accuracy result.png)
+![App Screenshot](images-result\Accuracy-Val-Accuracy result.png)
